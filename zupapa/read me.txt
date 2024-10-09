@@ -1,0 +1,46 @@
+Zupapa! MVS to NeoGeo CD converter
+
+How to use:
+
+1. Unzip this package to a folder
+2. Find the MAME rom "zupapa.zip"
+3. Extract the "zupapa.zip" to the same folder as the package
+4. Run "run me.bat"
+5a. Use your favorite CD burning application to burn the cue+iso to CD.
+5b. Make a "Zupapa" directory on your SD Loader's SD card and copy the "zupapa.iso" and "zupapa.cue" to that directory.
+
+
+Expected ROMs:
+
+"070-p1.p1", 100000, CRC32(5a96203e)
+"070-c1.c1", 800000, CRC32(f8ad02d8)
+"070-c2.c2", 800000, CRC32(70156dde)
+
+
+Notes:
+ This has been tested on real hardware and works (NeoGeo CD Top Loader + SD Loader).
+ It has not been extensively tested.
+ The source is included (build.c) and can be built with gcc (gcc build.c)
+ mkisofs can be downloaded elsewhere
+
+
+Credits:
+
+	iq_132
+	https://neo-source.com/
+	https://www.patreon.com/iq_132/
+
+Thanks to:
+
+	The NeoGeo Development Wiki
+	https://wiki.neogeodev.org
+
+	NGFX SoundBuilder v0.200624
+	https://blastar.citavia.de/
+
+	FinalBurn Neo
+	https://github.com/finalburnneo/FBNeo
+
+	mkisofs
+	https://cdrtfe.sourceforge.io/tools/index_en.html
+

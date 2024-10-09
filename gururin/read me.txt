@@ -1,0 +1,39 @@
+Gururin MVS to NeoGeo CD converter
+
+How to use:
+
+1. Unzip this package to a folder
+2. Find the MAME rom "gururin.zip"
+3. Extract the "gururin.zip" to the same folder as the package
+4. Run "run me.bat"
+5a. Use your favorite CD burning application to burn the cue+iso to CD.
+5b. Make a "Gururin" directory on your SD Loader's SD card and copy the "gururin.iso" and "gururin.cue" to that directory.
+
+Expected ROMs:
+
+"067-p1.p1", 080000, CRC32(4cea8a49)
+"067-s1.s1", 020000, CRC32(b119e1eb)
+"067-m1.m1", 020000, CRC32(9e3c6328)
+"067-v1.v1", 080000, CRC32(cf23afd0)
+"067-c1.c1", 200000, CRC32(35866126
+"067-c2.c2", 200000, CRC32(9db64084)
+
+Notes:
+ This has been tested on real hardware and works (NeoGeo CD Top Loader + SD Loader).
+ It has not been extensively tested.
+ The source is included (build.c) and can be built with gcc (gcc build.c)
+ mkisofs can be downloaded elsewhere
+
+Credits:
+	iq_132
+	https://neo-source.com/
+	https://www.patreon.com/iq_132/
+
+Thanks to:
+	The NeoGeo Development Wiki
+	https://wiki.neogeodev.org
+	FinalBurn Neo
+	https://github.com/finalburnneo/FBNeo
+	mkisofs
+	https://cdrtfe.sourceforge.io/tools/index_en.html
+

@@ -1,0 +1,9 @@
+del gururin.iso
+.\build
+.\mkisofs -iso-level 1 -o gururin.iso -pad -N -V "GURURIN" Z80.Z80 SPR1.SPR SPR2.SPR SPR3.SPR SPR4.SPR SPR5.SPR SPR6.SPR FIX.FIX PCM.PCM PRG.PRG TITLE_J.SYS TITLE_U.SYS TITLE_E.SYS ABS.TXT BIB.TXT CPY.TXT IPL.TXT
+del Z80.Z80
+del SPR*.SPR
+del FIX.FIX
+del PCM.PCM
+del PRG.PRG
+pause
